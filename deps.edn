@@ -4,9 +4,6 @@
                                poly/user {:local/root "components/user"}
                                poly/foo {:local/root "components/foo"}}}
 
-            :test {:extra-paths ["components/user/test"
-                                 "components/foo/test"]}
-
             :poly {:main-opts ["-m" "polylith.clj.core.poly-cli.core"]
                    :extra-deps {polyfy/polylith
                                 {:git/url   "https://github.com/polyfy/polylith"
